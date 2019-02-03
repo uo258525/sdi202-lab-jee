@@ -43,12 +43,6 @@ public class ServletSaludo extends HttpServlet {
 			out.println ("Hola "+ nombre + "<br>");
 			}
 		
-		try {
-			Thread.sleep(15000);
-			} catch (InterruptedException e) {}
-			out.println("ID del hilo:"+Thread.currentThread().getId()+"<br>");
-			contador++;
-			out.println("Visitas:"+contador+"<br>");
 	
 		out.println("</BODY></HTML>");
 		
