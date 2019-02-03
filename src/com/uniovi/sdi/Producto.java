@@ -8,6 +8,9 @@ this.nombre = nombre;
 this.imagen = imagen;
 this.precio = precio;
 }
+public Producto() {
+	
+}
 public String getNombre() {
 return nombre;
 }
